@@ -2,7 +2,7 @@ package NumberCrunching;
 import java.util.*;
 
 public class primeNumber {
-    public boolean isPrime(int num){
+    public static boolean isPrime(int num){
         if(num==0 || num==1)    return false;
 
         if(num==2 || num==3)    return true;
@@ -18,9 +18,13 @@ public class primeNumber {
         return true;
     }
 
-    public List<Integer> primeWithinRange(int start, int end){
+    public static List<Integer> primeWithinRange(int start, int end){
         List<Integer> answer = new ArrayList<>();
-
+        for(int itr=start; itr<end; itr++){
+            if(isPrime(itr)){
+                answer.add(itr);
+            }
+        }
         return answer;
     }
 }
