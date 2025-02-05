@@ -1,3 +1,4 @@
+package DS;
 import java.util.*;
 
 public class NAryTree {
