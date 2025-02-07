@@ -1,4 +1,5 @@
 package NumberCrunching;
+import NumberCrunching.*;
 
 public class Main {
     public static void main(String[] args){
@@ -17,7 +18,7 @@ public class Main {
             System.out.print(num+" ");
         }
         
-        // Nth fibonacci number
+        //  Nth fibonacci number
         System.out.println("\nFibonacci - " + 5 + " : " + fibonacci.NthFibonacci(5));
 
         // LCM, GCD
