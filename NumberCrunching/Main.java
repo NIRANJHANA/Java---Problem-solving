@@ -1,7 +1,9 @@
 package NumberCrunching;
-import NumberCrunching.*;
+// import NumberCrunching.*;
 
 public class Main {
+
+    // public static Factorial obj = new Factorial();
     public static void main(String[] args){
 
 
