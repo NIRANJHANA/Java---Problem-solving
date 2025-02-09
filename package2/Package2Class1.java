@@ -1,8 +1,16 @@
 package package2;
 import package1.*;
+import static package1.Class1.method3;
 
 public class Package2Class1 {
     public static void main(String[] args) {
+
+        // import is not static so we seed to use Class name
+        Class1.method2();
+
+        // import is static so no need to use class name to access method
+        method3(); // method3 from package1-Class1
+
         // protected method (method1 in package1) is accessible only within the package
         /* Class1.method1(); -> error: cannot find symbol
                                     Class1.method1();

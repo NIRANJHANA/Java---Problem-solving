@@ -24,4 +24,12 @@ public class Class1 {
         System.out.println("package1-class1-method1->protected");
         System.out.println("value of protected var within class1: " + protected_var);
     }
+
+    public static void method2(){
+        System.out.println("package1-class1-method2");
+    }
+
+    public static void method3(){
+        System.out.println("package1-class1-method3");
+    }
 }
