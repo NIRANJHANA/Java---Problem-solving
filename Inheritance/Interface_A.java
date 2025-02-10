@@ -1,4 +1,4 @@
-package Interface;
+package Inheritance;
 
 public interface Interface_A {
 

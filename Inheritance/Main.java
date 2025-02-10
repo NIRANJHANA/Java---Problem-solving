@@ -33,6 +33,24 @@ public class Main {
 
         // child reference - parent obj not allowed -> error: incompatible types: SpiderMan cannot be converted to MikesMorales
         // MikesMorales childObj = new SpiderMan("name", "power");
+
+
+
+        // Multiple inheritance
+        MultipleInheritance obj = new MultipleInheritance();
+
+        System.out.println("'MULTIPLE INHERITANCE USING INTERFACE'");
+        obj.commonAbstratcMethod();
+        obj.abstratcMethod_A();
+        obj.abstratcMethod_B();
+
+        obj.commonDefaultMethod();
+        obj.defaultMethod_A();
+        obj.defaultMethod_B();
+
+        // Access static field or method using interface name
+        Interface_A.staticMethod();
+        System.out.println("Value of static field in interface_A: " + Interface_A.CONSTANT);
     }
 }
 
