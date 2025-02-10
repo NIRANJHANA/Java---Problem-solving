@@ -1,6 +1,7 @@
-package package2;
-import package1.*;
-import static package1.Class1.method3;
+package ModifierPackage2;
+import static ModifierPackage1.Class1.method3;
+
+import ModifierPackage1.*;
 
 public class Package2Class1 {
     public static void main(String[] args) {

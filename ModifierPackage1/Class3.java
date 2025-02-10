@@ -1,4 +1,4 @@
-package package1;
+package ModifierPackage1;
 
 class Class3 {
     public static void method1(){

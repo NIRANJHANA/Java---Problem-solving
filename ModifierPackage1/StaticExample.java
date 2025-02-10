@@ -1,4 +1,4 @@
-package package1;
+package ModifierPackage1;
 
 public class StaticExample {
     static int count = 0; // static variable

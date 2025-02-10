@@ -1,4 +1,4 @@
-package package1;
+package ModifierPackage1;
 
 public class Class4 {
     static InnerClass4 obj1 = new InnerClass4();
