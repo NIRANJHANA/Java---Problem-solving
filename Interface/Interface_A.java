@@ -6,7 +6,7 @@ public interface Interface_A {
     
     public abstract void commonAbstratcMethod();
 
-    void abstratcMethod_A(); // public abstract - by default
+    void abstractMethod_A(); // public abstract - by default
 
     // can't override - static method belongs to interface
     static void staticMethod(){

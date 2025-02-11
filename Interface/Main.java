@@ -5,8 +5,8 @@ public class Main {
         ImplementClass obj = new ImplementClass();
 
         obj.commonAbstratcMethod();
-        obj.abstratcMethod_A();
-        obj.abstratcMethod_B();
+        obj.abstractMethod_A();
+        obj.abstractMethod_B();
 
         obj.commonDefaultMethod();
         obj.defaultMethod_A();

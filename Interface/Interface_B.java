@@ -4,7 +4,7 @@ public interface Interface_B {
 
     public void commonAbstratcMethod();
 
-    void abstratcMethod_B(); // public abstract - by default
+    void abstractMethod_B(); // public abstract - by default
 
     default void commonDefaultMethod(){
         System.out.println("Common default method inside interface_B");

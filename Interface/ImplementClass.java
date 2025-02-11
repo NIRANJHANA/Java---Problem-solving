@@ -6,12 +6,12 @@ public class ImplementClass implements Interface_A, Interface_B {
         System.out.println("Single implementation for common abstract method from both interfaces");
     }
 
-    public void abstratcMethod_A(){
-        System.out.println("implementing abstratcMethod_A of interface_A inside class");
+    public void abstractMethod_A(){
+        System.out.println("implementing abstractMethod_A of interface_A inside class");
     }
 
-    public void abstratcMethod_B(){
-        System.out.println("implementing abstratcMethod_B of interface_A inside class");
+    public void abstractMethod_B(){
+        System.out.println("implementing abstractMethod_B of interface_A inside class");
     }
 
     /*
