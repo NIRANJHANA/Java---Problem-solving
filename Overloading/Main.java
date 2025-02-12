@@ -7,8 +7,12 @@ public class Main {
         System.out.println("m2 -> int-arg");
     }
     
-    static void m2(double num){
-        System.out.println("m2 -> double-arg");
+    static void m2(Double f){
+        System.out.println("m2 -> Double(wrapper)-arg // Autoboxing");
+    }
+    
+    static void m2(float num){
+        System.out.println("m2 -> float-arg");
     }
     
     static void m2(int num1, int num2){
@@ -63,6 +67,7 @@ public class Main {
 
         m2(5);
         m2(5f);
+        m2(5.0); // no match for double -> so autoboxing worked here -> double is automatically coverted into Double(wrapper class)
         m2((byte)5); // no excat match look for high level - float
         m2(5, 5);
     
@@ -91,7 +96,14 @@ public class Main {
         c.m6((byte)0);
 
         // Overloading with var-args
-        m6(5); // it can match bot fixed & var-args argument, but fixed argument takes precedence
+        m6(5); // it can match both fixed & var-args argument, but fixed argument takes precedence
         m6(5,6,7);
+
+        p.m7(5,4); // parent
+        p.m7(5); // parent
+        c.m7(5,4); // parent
+        c.m7(5); // child
+        p2.m7(5); // parent
+        p2.m7(5,6); // parent
     }
 }
