@@ -1,6 +1,6 @@
 package ControlFlow;
 
-public class Child {
+public class Child extends Parent {
     // static block
     static {
         System.out.println("Child static block");
