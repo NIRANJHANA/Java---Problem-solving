@@ -1,5 +1,6 @@
 package ControlFlow;
 
+/** testing javadoc tool */
 public class Main {
     static {
         System.out.println("Main static block");
