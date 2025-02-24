@@ -2,6 +2,7 @@ package AbstractConcreteClass;
 
 public class Main {
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Car car = new Car();
         car.startEngine();
